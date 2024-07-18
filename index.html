@@ -1,52 +1,106 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio BN</title>
+    <title>Bianca Nogueira Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <div class="perfil">
+        <header class="profile">
             <div class="avatar-container">
-                <img src="avatar.jpg" alt="Avatar" class="avatar">
+                <img src="avatar2.png" alt="Avatar" class="avatar">
             </div>
-            <h1>Bianca Nogueira</h1>
-            <p>&lt;Front End Developer/&gt;</p>
-        </div>
+            <h1>Hi all! I am Bianca Nogueira</h1>
+            <p class="tagline">&lt;Front End Developer/&gt;</p>
+        </header>
+        
         <nav class="links">
             <ul>
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#projetos">Meus projetos</a></li>
-                <li><a href="#linguagens">Minhas Linguagens de Programação</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="sobre" id="sobre">
-            <div class="conteudo-sobre">
-                <div class="texto">
-                    <h1>Sobre mim</h1>
-                    <p>Sou uma pessoa que preza pela inteligência, cultura e conhecimento, logo estou a todo tempo em movimento fazendo coisas novas e me esforçando para fazer tudo bem feito. Tenho 21 anos, e me interesso muito pela área de tecnologia, universo dos computadores, jogos, celulares, entre outros, atualmente estou me graduando em Análise e Desenvolvimentos de Sistemas. O que verdadeiramente me motiva é a aprovação e apreciação das pessoas ao meu redor pelo meu trabalho. Além disso, tenho uma visão clara de alcançar minha independência e construir meu próprio patrimônio. Essas metas são impulsionadoras para mim, e o sentimento de conquista ao alcançá-las é inigualável. Continuo em constante busca de resultados e superação de metas pessoais e profissionais.</p>
-                </div>
-                <div class="imagem">
-                    <img src="foto.jpg" alt="Foto de Perfil">
+        
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <p>I am a person who values intelligence, culture, and knowledge, so I am always on the move doing new things and striving to do everything well. I am 21 years old and very interested in the field of technology, the universe of computers, games, cell phones, among others. I am currently pursuing a degree in Systems Analysis and Development. What truly motivates me is the approval and appreciation of the people around me for my work. In addition, I have a clear vision of achieving my independence and building my own heritage. These goals drive me, and the feeling of achievement upon reaching them is unparalleled. I am constantly seeking results and surpassing personal and professional goals.</p>
+        </section>
+        
+        <section class="projects" id="projects">
+            <h2>My Recent Work</h2>
+            <p class="subtitle">Here are a few past design projects I've worked on. Want to see more? Email me.</p>
+            
+            <div class="project-list">
+                <div class="project">
+                    <a href="pagina-do-projeto.html" target="_blank" class="project-image">
+                        <img src="appcep.jpg" alt="Projeto - Aplicativo CEP">
+                        <div class="project-overlay">   
+                            <p class="project-description">Aplicativo desenvolvido em low code na plataforma PowerApps para a empresa Unilever.</p>
+                            <a href="pagina-do-projeto.html" target="_blank" class="btn-visit">
+                                Visit Website <span class="icon">&gt;</span>
+                            </a>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </div>
-        <!-- Placeholder sections for navigation -->
-        <div class="placeholder" id="projetos">
-            <h1>Meus projetos</h1>
-            <p>Projetos desenvolvidos por mim.</p>
-        </div>
-        <div class="placeholder" id="linguagens">
-            <h1>Minhas Linguagens de Programação</h1>
-            <p>Lista de linguagens de programação que domino.</p>
-        </div>
-        <div class="placeholder" id="contato">
-            <h1>Contato</h1>
-            <p>Formas de entrar em contato comigo.</p>
-        </div>
+        </section>
+        
+        <section class="technologies" id="technologies">
+            <h2>Technologies</h2>
+            <div class="technologies-images">
+                <img src="1.svg" alt="Logo React">
+                <img src="2.svg" alt="Logo Javascript">
+                <img src="3.svg" alt="Logo Python">
+                <img src="4.svg" alt="Logo PowerApps">
+            </div>
+        </section>
+        <section class="socialmedia" id="social-links">
+            <div class="social-content">
+                <h2>Social Media</h2>
+                <div class="technologies-images">
+                    <img src="5.svg" alt="Logo React">
+                    <img src="6.svg" alt="Logo Javascript">
+                    <img src="7.svg" alt="Logo Python">
+                </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <h2>Contact Me</h2>
+                <form action="/enviar-formulario" method="post">
+                    <div>
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </div>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Bianca Nogueira. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/bianca" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/bianca" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/bianca" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
