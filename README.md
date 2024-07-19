@@ -15,10 +15,6 @@ Você pode visualizar meu portfólio ao vivo no GitHub Pages:
 
 [https://biancasnogueira.github.io/portfolio](https://biancasnogueira.github.io/portfolio)
 
-Para ver o código-fonte HTML, você pode acessar diretamente o arquivo:
-
-[https://github.com/bianca/portfolio/blob/main/index.html](https://github.com/bianca/portfolio/blob/main/index.html)
-
 ## Contato
 
 - [GitHub](https://github.com/bianca)
