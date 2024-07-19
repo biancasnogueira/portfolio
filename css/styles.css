@@ -361,24 +361,41 @@ span.icon {
     background-color: #0056b3;
 }
 
-/* Estilos do rodapé */
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    margin-top: 40px;
+/* Estilos para o rodapé */
+footer.footer {
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+footer.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.footer-content p {
+footer.footer p {
     margin: 0;
-    font-size: 0.9em;
+    font-size: 1em;
+}
+
+footer.footer .social-links {
+    display: flex;
+    gap: 15px;
+}
+
+footer.footer .social-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer.footer .social-links a:hover {
+    color: #0056b3;
 }
 
 .social-links {
