@@ -1,5 +1,3 @@
-# Bianca Nogueira Portfolio
-
 Bem-vindo ao meu portfólio! Sou Bianca Nogueira, uma desenvolvedora front-end.
 
 ## O que há aqui
@@ -13,7 +11,7 @@ Bem-vindo ao meu portfólio! Sou Bianca Nogueira, uma desenvolvedora front-end.
 
 Você pode visualizar meu portfólio ao vivo no GitHub Pages:
 
-[https://biancasnogueira.github.io/portfolio](https://biancasnogueira.github.io/portfolio)
+[https://biancasnogueira.github.io/portfolio/index.html](https://biancasnogueira.github.io/portfolio/index.html)
 
 ## Contato
 
